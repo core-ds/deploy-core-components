@@ -22,8 +22,8 @@
 
     /* disabled */
     --action-button-disabled-color: var(--color-light-text-tertiary);
-    --action-button-disabled-icon-color: var(--color-light-neutral-500);
-    --action-button-disabled-bg-color: var(--color-light-neutral-100);
+    --action-button-disabled-icon-color: var(--color-light-neutral-translucent-500);
+    --action-button-disabled-bg-color: var(--color-light-neutral-translucent-100);
 }
 
 .primary {
@@ -117,8 +117,10 @@
 
     /* disabled */
     --action-button-inverted-disabled-color: var(--color-light-text-tertiary-inverted);
-    --action-button-inverted-disabled-icon-color: var(--color-light-neutral-500-inverted);
-    --action-button-inverted-disabled-bg-color: var(--color-light-neutral-100-inverted);
+    --action-button-inverted-disabled-icon-color: var(
+        --color-light-neutral-translucent-500-inverted
+    );
+    --action-button-inverted-disabled-bg-color: var(--color-light-neutral-translucent-100-inverted);
 }
 
 .primary {
